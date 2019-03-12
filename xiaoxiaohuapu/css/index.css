@@ -1,0 +1,65 @@
+*{padding: 0;margin: 0;}
+html {font-size:62.5%;}
+body {margin:0 auto;font-family:Verdana, Geneva, sans-serif; font-size:1.2rem;font-size:12px;background: url("../images/bg.jpg") no-repeat;}
+img {border:none;}
+ul li {list-style-type:none;}
+ul, form, p, a, img, table, tr, td, li,dd,dt,dl {margin:0;padding:0;list-style:none;color:#333;}
+a {text-decoration:none;color:#333;outline:none;}
+h1 {margin:0;padding:0;font-weight:normal;color:#333;}
+.clear {clear:both;}
+.fl{float:left}
+.fr{float:right}
+input,textarea{font-family:Verdana, Geneva, sans-serif;font-size:12px;font-size:1.2rem;color:#a6a6a6; border:none; outline:none;}
+/*head*/
+.head{background:#f4f1e0;}
+.head_con{width: 1200px;margin: 0 auto;}
+.nav li{float: left;padding: 10px 20px; border-radius:5px; margin-right: 5px;}
+.nav li:hover{background: #f4de5f;}
+li.current{background: #f4de5f;}
+li.current a{color: #fff;}
+.nav li:hover>a{color: #fff;}
+.nav{overflow: hidden;margin-top: 16px;}
+.nav li a{font-size: 20px;}
+.nav_part{padding-right:50px;width:870px;position: relative;}
+.dlzc a{float: right;font-size: 16px;}
+.dlzc a:hover{color: #f4de5f;}
+.dl{display:inline-block;margin-right: 30px;}
+.car{position: absolute;bottom: 10px;right: 78px;display: block;font-size: 18px;padding: 5px 10px;background: #e6cf3b;border-radius: 3px;}
+.car:hover{color: #f4de5f;background: #fff;}
+.car img{width: 25px;height: 25px;vertical-align: middle;}
+
+/*******模态框******/
+.modal{position: fixed;top: 0;bottom: 0;left: 0;right: 0;background: rgba(00,00,00,0.8);z-index: 999;display:none;}
+.modal-dialog{width: 600px;height: 300px;position: absolute;margin:auto;top: 0;bottom:0;right:0;left:0;background:#b80e0e;}
+.modal-content h4{color:#fff;font-size: 20px;text-align: center;padding-top: 20px;padding-bottom: 30px;}
+#close{position: absolute;top: 5px;right: 10px;font-size:24px;cursor: pointer;}
+#close:hover{color:#f4de5f;}
+.alert{color:#f4de5f;font-size: 18px;text-align: center;margin-bottom: 10px;}
+#login-form input{display: block;}
+.name,.pwd{width: 300px;padding:15px;border-radius: 5px;margin: 0 auto;margin-bottom: 15px;}
+#bt-login{font-size:16px;font-weight:bold;width:150px;height: 40px;background: #fff;color: #b80e0e;margin: 0 auto;border-radius: 5px;cursor: pointer;}
+#bt-login:hover{background: #f4de5f;color: #fff;}
+
+/*********产品列表************/
+body{background:url("../images/bg1.png") ;background-attachment: fixed;position: relative;}
+.list{width:1200px;padding: 50px 50px;background: rgba(244,241,224,0.8);margin: 0 auto;}
+.swiper-slide img{display: block;}
+.list ul{overflow: hidden;}
+.list ul li{float: left;width: 220px;margin-right:106px;}
+.special{margin-right: auto!important;}
+.pro_con{position: relative;overflow: hidden;}
+.img_cover{width: 100%;height: 100%;position: absolute;top: 245px;left: 0;background: rgba(00,00,00,0.5);transition: 0.5s;}
+.list ul li:hover .img_cover{top: 0;}
+.img_cover a{display: block;width: 100px;height: 40px;line-height: 40px;text-align: center;background:#f4de5f;position: absolute; left: 50%;margin-left: -50px;}
+.img_cover a:hover{color: #fff;}
+.chakan{top: 60px;}
+.jiaru{top:135px;}
+.mingzi{font-size: 20px;padding: 10px;}
+.price{padding: 10px;color: #fe2246;}
+
+
+/***********xiangqing*************/
+.xq{background: rgba(255,255,255,0.8);}
+.xq_box{width: 1200px;margin: 0 auto;padding: 100px 50px;}
+.left{margin-right: 30px;}
+.left img{width: 400px;}

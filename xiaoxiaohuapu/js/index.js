@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $(".dl").click(function(){
+        $(".modal").show();
+    })
+    $("#close").click(function(){
+        console.log("11");
+        $(".modal").hide();
+    })
+})

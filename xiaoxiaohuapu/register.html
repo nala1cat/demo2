@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>免费注册</title>
+
+	<style>
+        .bg{padding: 0;margin: 0;padding-top: 100px;}
+		.bg_img{width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: -99;}
+		span {
+			font-size: 12px;
+			color: red;
+			display: block;
+			margin-left: 6em;
+			margin-top: 2px;
+		}
+		.register {
+			width: 650px;
+			height: 450px;
+			margin: 0 auto;
+			background: rgba(00,00,00,0.6);
+			/*box-shadow: 1px 1px 5px #ccc;*/
+			border-radius: 5px;
+			padding-top: 15px;
+
+		}
+		.register_title {
+			width: 350px;
+			height: 40px;
+			line-height: 40px;
+			font-weight: 700;
+			color: #fff;
+			background-color: #f10215;
+
+			text-align: center;
+			border-radius: 2px 2px 2px 2px;
+			box-shadow: 1px 1px 5px #ccc;
+			margin: 15px auto;
+			margin-bottom: 15px;
+		}
+		.register form>div {
+			height: 60px;
+			width: 302px;
+			margin: 0 auto;
+            color: #fff;
+			/* line-height: 50px; */
+		}
+        .register form>div input{margin-left: 10px;}
+		.register form div input {
+			height: 25px;
+			width: 220px;
+		}
+		#a,#b {
+			width: 140px;
+			height: 30px;
+            line-height: 30px;
+			background-color: #f10215;
+			color: #fff;
+			border: 0;
+			border: 1px solid #f10215;
+			border-radius: 4px;
+			margin-right: 10px;
+            margin: 0 auto;
+
+		}
+        #a{margin-bottom: 10px;margin-right: 22px;}
+	</style>
+</head>
+<body class="bg">
+	<img src="images/bg3.jpg" class="bg_img">
+	<div class="register">
+		<div class="register_title">注册</div>
+		<form action="register.php" method="get">
+			<div><div style="letter-spacing:0.5em;display:inline;">用</div><div style="letter-spacing:0.5em;display:inline;">户</div>名:<input type="text" name='userName' id="userName" value="" onblur="ajax()" /><span id="userMessage"></span></div>
+			<div><div style="letter-spacing:2em;display:inline;">密</div>码:<input type="text" name="userPwd" value=""/><span id="pwdMessage"></span></div>
+			<div>确认密码:<input type="text" name="userPwd2"/><span id="Pwd2Message"></span></div>
+			<div>电话号码:<input type="text" name="userTell"/><span id="TellMessage"></span></div>
+			<div>邮箱地址:<input type="text" name="userEmail"/><span id="EmailMessage"></span></div>
+			<div><input type="reset" value="重置" id="a" /><input type="submit" value="注册" id="b" /></div>
+		</form>
+	</div>
+</body>
+</html>
+
+ 
